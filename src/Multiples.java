@@ -8,8 +8,8 @@ public class Multiples {
         // method 1
         int lcm = 15;
         int upper_bound = 1000;
-        System.out.println( (int) ((upper_bound - 1) / x) + (int) ((upper_bound - 1) / y) -
-                (int) ((upper_bound - 1) / lcm));
+        System.out.println((upper_bound - 1) / x + (upper_bound - 1) / y -
+                (upper_bound - 1) / lcm);
 
         // method 2
         int count = 0;
